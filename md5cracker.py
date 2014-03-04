@@ -1,6 +1,12 @@
 #-*- coding:utf-8 -*-
 import hashlib
 
+print """
+Ahmet KOTAN
+Md5 Hash Cracker
+"""
+
+
 h = raw_input("Hash: ")
 oku = open('wordlist.txt').readlines()
 
